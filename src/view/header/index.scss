@@ -1,0 +1,49 @@
+:local .header {
+  height: 2.5rem;
+  box-sizing: border-box;
+  display: flex;
+}
+
+:local .logo {
+  flex: 1;
+}
+
+:local .svg {
+  height: 1.5rem;
+}
+
+:local .link {
+  color: #61dafb;
+}
+
+header {
+  .logo_a {
+    width: 6rem;
+    display: block;
+    height: 2.5rem;
+    img {
+      box-sizing: border-box;
+      padding: 0.5rem;
+      height: 2.5rem;
+    }
+  }
+
+  .header_icon {
+    box-sizing: border-box;
+    width:2.5rem;
+    padding: 0.5rem;
+    i{
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

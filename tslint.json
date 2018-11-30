@@ -14,7 +14,8 @@
     "no-var-requires": false,
     "ordered-imports": false,
     "interface-name": false,
-    "no-console": false
+    "no-console": false,
+    "jsx-self-close": false
   },
   "jsRules": {
       "object-literal-sort-keys": false

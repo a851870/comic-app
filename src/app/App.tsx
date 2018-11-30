@@ -1,36 +1,21 @@
 import * as React from 'react';
-import * as styles from './App.css';
+import Header from '../view/header';
+import Banner from '../view/banner';
 
-import Row from '../components/grid/row'
-import Col from '../components/grid/col'
-
-import logo from '../assets/logo.svg';
+// import { Row, Col } from '../components/grid'
+// import { Container, Box } from '../components/flutter'
 
 class App extends React.Component {
   public render() {
     return (
-      <div className={styles.app}>
-        <header className={styles.header}>
-          <img src={logo} className={styles.logo} alt="logo" />
-		  
-		  <div>1515</div>
-		  <Row gutter={8}>hehe
-			<Col span={2} xs={10}> 2333</Col>
-		  </Row>
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className={styles.link}
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="comic_container">
+        <Header></Header>
+        <Banner><div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div></Banner>
       </div>
-    );
+    )
   }
 }
 
