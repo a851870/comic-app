@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.card-column{
+  flex-direction: column;
+}
+.card-reverse {
+  flex-direction: column-reverse;
+}
